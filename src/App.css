@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400&display=swap');
+/* font-family: 'IBM Plex Mono', monospace; */
+
+
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: black;
+}
+
+.nav {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	width: 100vh;
+	border: 1px solid gray;
+	height: 30px;
+	position: fixed;
+	top: 10px;
+}
+
+nav {
+	position: fixed;
+	top: 10px;
+	width: 100vh;
+	height: 30px;
+	display: flex;
+	justify-content: right;
+	color: #12fc02;
+	align-items: center;
+}
+
+nav a {
+	padding: 10px;
+	font-family: 'IBM Plex Mono', monospace;
+	font-weight: 400;
+}
+
+nav a:hover {
+	color: black;
+}
+
+hr {
+	position: fixed;
+	bottom: 33px;
+	width: 100vh;
+	color: gray;
+	border: 0.1px solid;
+}
+
+footer {
+	position: fixed;
+	bottom: 10px;
+	width: 100vh;
+	display: flex;
+	justify-content:space-between;
+	color: gray;
+}
+
+footer .fot-icon {
+	display: flex;
+	justify-content: space-between;
+	width: 50px;
+}
+
+footer .fot-icon i {
+	color: gray;
+	font-size: 20px;
+}
+
+footer .copyright {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+footer .copyright a {
+	text-decoration: underline;
+	color: gray;
+}
