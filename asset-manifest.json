@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nix-rs.github.io/static/css/main.4292a6b0.css",
+    "main.js": "/nix-rs.github.io/static/js/main.9af55cd6.js",
+    "index.html": "/nix-rs.github.io/index.html",
+    "main.4292a6b0.css.map": "/nix-rs.github.io/static/css/main.4292a6b0.css.map",
+    "main.9af55cd6.js.map": "/nix-rs.github.io/static/js/main.9af55cd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4292a6b0.css",
+    "static/js/main.9af55cd6.js"
+  ]
+}
