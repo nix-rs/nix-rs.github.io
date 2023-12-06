@@ -1,4 +1,7 @@
 import './App.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   return (
@@ -17,10 +20,10 @@ function App() {
       <footer>
         <div className="fot-icon">
           <a href="https://github.com/nix-rs" target="_blank" className="git">
-            <i className="fa-brands fa-square-github"></i>
+            <FontAwesomeIcon icon={faSquareGithub} style={{color: 'black'}} />
           </a>
           <a href="mailto:aniket2contact@gmail.com" target="_blank" className="email">
-            <i className="fa-solid fa-envelope"></i>
+            <FontAwesomeIcon icon={faEnvelope} style={{color: 'black'}} />
           </a>
         </div>
         <div className="copyright">
